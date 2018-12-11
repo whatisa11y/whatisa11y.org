@@ -1,9 +1,10 @@
 body {
-  background-color: #318cfc;
+  background-color: #294759;
   margin: 0;
   padding: 0;
   font-family: Verdana, "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 1.2em;
+  line-height: 1.16;
 }
 body, a:link, a:visited {
   color: #333;
@@ -12,13 +13,16 @@ main {
   width: 700px;
   margin: 5em auto;
   padding: 50px;
-  background-color: #fff4e6;
+  background-color: #f6eddf;
   border-radius: 1em;
 }
+h1, h1+ol, h2+p, h2+ul {
+  margin-top: 0px;
+}
+h1, h2 {
+  margin-bottom: 0px;
+}
 @media (max-width: 800px) {
-  body {
-    background-color: #318cfc;
-  }
   main {
     width: auto;
     padding: 2em;
