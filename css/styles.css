@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: Verdana, "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 1.2em;
-  line-height: 1.16;
+  line-height: 1.6;
 }
 body, a:link, a:visited {
   color: #333;
@@ -12,12 +12,15 @@ body, a:link, a:visited {
 main {
   width: 700px;
   margin: 5em auto;
-  padding: 50px;
+  padding: 25px 50px 25px 50px;
   background-color: #f6eddf;
   border-radius: 1em;
 }
 h1, h1+ol, h2+p, h2+ul {
   margin-top: 0px;
+}
+h1 {
+  line-height: 1.2;
 }
 h1, h2 {
   margin-bottom: 0px;
@@ -25,7 +28,6 @@ h1, h2 {
 @media (max-width: 800px) {
   main {
     width: auto;
-    padding: 2em;
-    padding-top: 50px;
+    padding: 25px 50px 25px 50px;
   }
 }
